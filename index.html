@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Amin Arabi">
+	<meta name="description" content="Amin Arabi's personal page">
+	<meta property="og:type" content='website' />
+	<meta property="og:title" content='Amin Arabi' />
+	<meta property="og:image" content='./assets/aminarabi.com_thumbnail.png' />
+	<meta property="og:description" content="Amin Arabi's personal page" />
+	<meta property="og:url" content='aminarabi.com' />
+	<meta property='og:image:width' content='1200' />
+	<meta property='og:image:height' content='627' />
+	<meta name="keywords"
+		content="Frontend Devloper, Development, front-end, front-end engineer, ReactJS, NextJS, Dynamic Websites">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+	<link rel="manifest" href="./manifest.json">
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-58B8TNX3YX"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-58B8TNX3YX');
+	</script>
+	
+	<title>Amin Arabi</title>
+</head>
+
+<body>
+	<header>
+		<h1>Hey there!</h1>
+		<article>
+			<section class="mb-2">
+				<h2 class="red-background">This is <strong>Amin Arabi</strong>'s personal page.</h2>
+				<p>I develop web applications, with a focus on front-end.</p>
+			</section>
+
+		</article>
+
+	</header>
+	<main class="mt-4 mb-4">
+		<p class="mt-2 mb-2">
+			React and NextJS are my favorite tools to build dynamic websites and Single Page Applications.<br />
+			I like creating not only visually appealing sites, but also optimizing them for speed, user-friendliness,
+			and scalability.
+		</p>
+		<p class="mb">Every new Idea is a game and I love playing. Got a fresh website or online business idea? Let's
+			chat – I'm
+			all ears! <a href="mailto:amin.arabi@gmail.com">Shoot me a message</a>, and let's turn your idea into
+			reality.
+		</p>
+	</main>
+	<footer class="mt-4">
+		<section class="mt-2 mb-1">
+			<p class="red-background mb-2">Reach me:</p>
+			<div class="links-box">
+				<p><a href="https://www.linkedin.com/in/amin-arabi/" target="_blank">LinkedIn</a></p>
+				<p><a href="https://github.com/noviceGuru" target="_blank">GitHub</a></p>
+				<p><a href="mailto:amin.arabi@gmail.com">Email</a></p>
+			</div>
+		</section>
+		<p class="mb-1">
+			Download my CV here:
+		</p>
+		<p class="mb-1">
+			<a href="https://noviceguru.github.io/my-cv/myCV/Amin_Arabi_FE_Developer_CV.pdf"
+				download="Amin_Arabi_FE_Developer_CV.pdf" target="_blank">My CV in PDF</a>
+		</p>
+		<p>
+			<a href="https://noviceguru.github.io/my-cv/myCV/Amin_Arabi_Frontend_Developer_CV.docx"
+				download="Amin_Arabi_FE_Developer_CV.docx">My CV in Word</a>
+		</p>
+	</footer>
+
+</body>
+
+<style>
+	body {
+		font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+			Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+			sans-serif;
+		font-size: calc(10px + 0.33vw);
+		-webkit-font-smoothing: antialiased;
+		padding: 5dvh 10dvw;
+		color: #121314;
+		--yellow-background: rgb(221 252 165)
+	}
+
+	h1 {
+		font-size: 4.5em;
+		font-weight: 500;
+	}
+
+	h2 {
+		font-size: 1.6em;
+		font-weight: 300;
+		max-width: 35rem;
+	}
+
+	p {
+		margin: unset;
+		font-size: 1.6em;
+		font-weight: 300;
+		line-height: 1.4;
+		max-width: 35rem;
+	}
+
+	a {
+		all: unset;
+		display: inline-block;
+		transition: background-color 1s ease-out;
+		cursor: pointer;
+		position: relative;
+	}
+
+	a:hover {
+		font-style: italic;
+		background-color: var(--yellow-background);
+	}
+
+	a::after {
+		content: "";
+		z-index: -1;
+		position: absolute;
+		background-color: var(--yellow-background);
+		left: 0;
+		bottom: 0.1em;
+		width: 100%;
+		height: 10%;
+	}
+
+	.red-background {
+		background-color: var(--yellow-background);
+		padding: .25em;
+	}
+
+	.links-box {
+		display: flex;
+		gap: 1em;
+	}
+
+	.mt-2 {
+		margin-top: 1em;
+	}
+
+	.mt-4 {
+		margin-top: 2em;
+	}
+
+	.mb-1 {
+		margin-bottom: 0.5em;
+	}
+
+	.mb-2 {
+		margin-bottom: 1em;
+	}
+
+	.mb-4 {
+		margin-bottom: 2em;
+	}
+</style>
+
+</html>
